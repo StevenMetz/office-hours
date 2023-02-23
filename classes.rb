@@ -9,21 +9,21 @@ class Food
   end
 end
 
-class Tacos < Food
+class Taco < Food
   def initialize(input)
     super
   end
 end
 
-class Burritos < Food
+class Burrito < Food
   def initialize(input)
     super
   end
 end
 
 # Tacos.new(input)
-taco = Tacos.new(type: "Mexican", taste: "Savory")
-burrito = Burritos.new(type: "Mexican", cost: 8.00, taste: "Sweet")
+taco = Taco.new(type: "Mexican", taste: "Savory")
+burrito = Burrito.new(type: "Mexican", cost: 8.00, taste: "Sweet")
 p taco
 p burrito
 
